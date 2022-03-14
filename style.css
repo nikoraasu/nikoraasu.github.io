@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+body{
+    font-family: 'Play', sans-serif;
+    background-color: black;
+    margin: 30px auto;
+    color: rgb(153, 255, 0);
+    font-size: large;
+}
+
+.displayedText{
+    border: 1px solid rgb(153, 255, 0);
+    width: 50%;
+    margin: auto;
+    height: 50px;
+    text-align: center;
+}
+
+.inputField{
+    width: 20%;
+    margin: auto;
+    border-bottom: 1px solid rgb(84, 215, 255);
+    text-align: center;
+    margin-top: 100px;
+}
+
+#countdown{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 90px;
+}
+
+.info{
+    width: 20%;
+    margin: auto;
+    border: 1px solid rgb(84, 215, 255);
+    text-align: center;
+    margin-top: 100px
+}
+
+.afterStart{
+    display: none;
+}
+
+#wpm{
+    color: aqua;
+}
+
+#startMessage{
+    color: rgb(255, 0, 255);
+}
+
